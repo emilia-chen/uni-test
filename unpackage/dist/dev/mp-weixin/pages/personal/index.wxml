@@ -1,0 +1,1 @@
+<view class="container"><view class="intro">personal</view><text class="intro">详见：</text><uni-link vue-id="abe335ec-1" href="{{href}}" text="{{href}}" bind:__l="__l"></uni-link></view>

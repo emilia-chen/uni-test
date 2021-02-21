@@ -1,8 +1,34 @@
+
 {
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "uni-ui基础项目"
+			"navigationBarTitleText": "uni-app"
+		}
+	},{
+		"path": "pages/homework/index",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+	},{
+		"path": "pages/personal/index",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+	},{
+		"path": "pages/index/go",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+	},{
+		"path": "pages/index/goTo",
+		"style": {
+			"navigationBarTitleText": "uni-app"
+		}
+	},{
+		"path": "pages/index/nvue",
+		"style": {
+			"navigationBarTitleText": "uni-app"
 		}
 	}],
 	"globalStyle": {
@@ -10,5 +36,31 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#007AFF",
 		"backgroundColor": "#FFFFFF"
-	}
+	},
+	    "tabBar": {
+	    "color": "#C3B8B4",
+	    "selectedColor": "#F76605",
+	    "borderStyle": "white",
+	    "backgroundColor": "#fff",
+	    "list": [
+	      {
+	        "pagePath": "pages/index/index",
+	        "text": "学员",
+	        "iconPath": "static/home_2.png",
+	        "selectedIconPath": "static/home_1.png"
+	      },
+	      {
+	        "pagePath": "pages/homework/index",
+	        "text": "作业",
+	        "iconPath": "static/security_2.png",
+	        "selectedIconPath": "static/security_1.png"
+	      },
+	      {
+	        "pagePath": "pages/personal/index",
+	        "text": "我的",
+	        "iconPath": "static/mine_2.png",
+	        "selectedIconPath": "static/mine_1.png"
+	      }
+	    ]
+	  }
 }
